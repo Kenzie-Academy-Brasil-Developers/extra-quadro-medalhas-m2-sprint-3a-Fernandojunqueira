@@ -1,0 +1,27 @@
+body,main,figure,img,figcaption,form,h1,label,input,div,h2,h3,span{
+
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+ ul,ol{
+    list-style: none;
+ }
+:root{
+    --primaryBlue: #364FC7;
+    --secondaryBlue: #4058CA;  
+    --backgroudGray: #E9ECEF;
+    --inputGray:#F5F5F5;
+    --tableGray: #F8F9FA;   
+
+}
+body{
+    background: #E0E0E0;
+}
+
+a{
+    text-decoration: none;
+}

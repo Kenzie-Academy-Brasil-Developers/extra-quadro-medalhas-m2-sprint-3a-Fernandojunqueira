@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" href="./src/img/OlympLogo.png">
+    <title>Rank Olimpiadas</title>
+</head>
+<body>
+    
+    <header><img src="./src/img/OlympLogo.png" alt="Logo Olympiadas"></header>
+    <div class="container">
+
+        <div class="search">
+                <label for="Pesquisar">Pesquisar</label>
+            <div>
+                <img src="./src/img/lupa.png" alt="Lupa">
+                <input type="text" placeholder="Pesquisar por país" id="Pesquisar">
+                <button>Pesquisar</button>
+            </div>
+            <span>Ex: Brasil</span>
+        </div>
+        <table>
+            <tr class="table-header">
+                <th >
+                    <select name="Posição" id="position">
+                        <option value="1°">Posição</option>
+                        <option value="2°">2°</option>
+                        <option value="3°">3°</option>
+                        <option value="4°">4°</option>
+                        <option value="5°">5°</option>
+                    </select>
+                </th>
+                <th>
+                    <p>País</p>
+                </th>
+                <th>
+                    <select name="Medalha" id="medals__gold">
+                        <option value="Ouro">Ouro</option>
+                        <option value="Prata">Prata</option>
+                        <option value="Bronze">Bronze</option>
+                    </select>
+                </th>
+                <th>
+                    <select name="Medalha" id="medals__silver">
+                        <option value="Ouro">Ouro</option>
+                        <option value="Prata">Prata</option>
+                        <option value="Bronze">Bronze</option>
+                    </select>
+                </th>
+                <th>
+                    <select name="Medalha" id="medals__copper">
+                        <option value="Ouro">Ouro</option>
+                        <option value="Prata">Prata</option>
+                        <option value="Bronze">Bronze</option>
+                    </select>
+                </th>
+                <th>
+                    <p>Total</p>
+                </th>
+            </tr>
+            <tr class="table-body">
+                <td>1°</td>
+                <td>
+                    <div>
+                        <img src="./src/img/BR@2x.png" alt="Image Brasil">
+                        <p>Brasil</p>
+                    </div>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>25</p>
+                </td>
+                <td>
+                    <p>50</p>
+                </td>
+            </tr>
+            <tr class="table-body">
+                <td>2°</td>
+                <td>
+                    <div>
+                        <img src="./src/img/US@2x.png" alt="Image USA">
+                        <p>Estados Unidos</p>
+                    </div>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>25</p>
+                </td>
+                <td>
+                    <p>50</p>
+                </td>
+            </tr>
+            <tr class="table-body">
+                <td>3°</td>
+                <td>
+                    <div>
+                        <img src="./src/img/CA@2x.png" alt="Image Canada">
+                        <p>Canada</p>
+                    </div>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>25</p>
+                </td>
+                <td>
+                    <p>50</p>
+                </td>
+            </tr>
+            <tr class="table-body">
+                <td>4°</td>
+                <td>
+                    <div>
+                        <img src="./src/img/YE@2x.png" alt="Image França">
+                        <p>França</p>
+                    </div>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>25</p>
+                </td>
+                <td>
+                    <p>50</p>
+                </td>
+            </tr>
+            <tr class="table-body">
+                <td>5°</td>
+                <td>
+                    <div>
+                        <img src="./src/img/IT@2x.png" alt="Image Itália">
+                        <p>Itália</p>
+                    </div>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>20</p>
+                </td>
+                <td>
+                    <p>25</p>
+                </td>
+                <td>
+                    <p>50</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script type="module" src='./src/js/script.js'></script>
+</body>
+</html>
