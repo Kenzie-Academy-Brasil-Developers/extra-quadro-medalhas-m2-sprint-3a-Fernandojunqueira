@@ -1,0 +1,96 @@
+header{
+    background-color: var(--primaryBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.search label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.search div input{
+    background-color: var(--inputGray);
+    height: 30px;
+    width: 258px;
+    padding-left: 39px;
+}
+.search div button{
+    width: 100px;
+    background-color: var(--primaryBlue);
+    color: white;
+    border: transparent;
+    height: 30px;
+    border-radius: 7px;
+}
+.search span{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #868E96;
+}
+.search div img{
+    position: relative;
+    bottom: -3px;
+    left: 31px;
+}
+.search div input{
+    border-radius: 4px;
+}
+table{
+    width: 100%;
+}
+
+.table-body:nth-child(even){
+    background-color: white;
+}
+.table-body:nth-child(odd){
+    background: #F8F9FA;
+}
+
+.table-body{
+    text-align: center;
+    height: 52px;
+}
+
+.table-body div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.table-body div img{
+    object-fit: cover;
+    width: 28px;
+    height: 20px;
+}
+
+.table-header {
+    background-color: var(--primaryBlue);
+}
+
+.table-header th select{
+    background-color: var(--secondaryBlue);
+    color: white;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    border: transparent;
+}
+.table-header th p{
+    color: white;
+}
